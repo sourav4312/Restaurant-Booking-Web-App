@@ -13,7 +13,7 @@ const About = () => {
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
-            [Restaurant Name] is a cozy dining spot in [Location], known for its delicious [Cuisine Type] dishes and warm, welcoming atmosphere. We’re passionate about great food, excellent service, and creating memorable moments for every guest. Whether it’s a casual meal or a special occasion, we’ve got you covered. Book your table easily with our quick reservation system and enjoy a seamless dining experience.  
+            [DineEase] is a cozy dining spot in [Mumbai], known for its delicious [Cuisine Type] dishes and warm, welcoming atmosphere. We’re passionate about great food, excellent service, and creating memorable moments for every guest. Whether it’s a casual meal or a special occasion, we’ve got you covered. Book your table easily with our quick reservation system and enjoy a seamless dining experience.  
             </p>
             <Link to="/ourmenu">
               Explore Menu{" "}

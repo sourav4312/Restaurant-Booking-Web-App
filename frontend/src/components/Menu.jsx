@@ -7,7 +7,7 @@ const Menu = () => {
         <div className="container">
             <div className="heading_section">
                 <h1 className="heading">POPULAR DISHES</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, iusto dolorem! Voluptatibus ipsum nam mollitia architecto. Soluta pariatur eius et recusandae veritatis. Quasi, et molestias!</p>
+                <p>From sizzling starters to indulgent desserts, our popular dishes are a celebration of flavor and creativity. Guests rave about our creamy Alfredo Pasta, perfectly grilled Herb Chicken, and signature Woodfired Pizzas loaded with farm-fresh toppings. Don’t miss our classic Tandoori Platter or the melt-in-your-mouth Cheesecake that keeps everyone coming back for more. Crafted by expert chefs using premium ingredients, each dish promises a memorable dining experience packed with taste, aroma, and authenticity.</p>
             </div>
             <div className="dishes_container">
                 {

@@ -442,68 +442,101 @@ nav svg {
   padding: 75px 20px;
   justify-content: center;
   align-items: center;
+  background: #f9f9f9;
+  overflow: hidden;
 }
+
 .qualities .container {
-  min-width: 1500px;
   max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
+
 .qualities .container .card {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex: 1 1 300px;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   text-align: center;
-  padding: 0 100px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
 }
+
+.qualities .container .card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.qualities .container .card:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.qualities .container .card:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.qualities .container .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
 .qualities .container .card img {
   margin-bottom: 25px;
+  width: 80px;
+  height: 80px;
 }
+
 .qualities .container .card .title {
   font-size: 1.8rem;
   font-weight: 700;
   color: #111;
   margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
+
 .qualities .container .card .description {
   font-size: 18px;
-  color: #333;
+  color: #555;
   font-weight: 300;
+  line-height: 1.6;
 }
-@media (max-width: 1520px) {
+
+/* Responsive Tweaks */
+@media (max-width: 1024px) {
   .qualities .container {
-    min-width: 100%;
-    padding: 30px 20px;
+    padding: 0 20px;
   }
 }
-@media (max-width: 1190px) {
-  .qualities .container .card .title {
-    font-size: 1.4rem;
-  }
-}
-@media (max-width: 1080px) {
-  .qualities .container .card {
-    padding: 0 30px;
-  }
+
+@media (max-width: 768px) {
   .qualities .container {
-    padding: 0;
+    flex-direction: column;
+    align-items: center;
   }
-}
-@media (max-width: 635px) {
-  .qualities .container .card {
-    flex: none;
-    width: 400px;
-    padding: 0;
-    margin: 0 auto;
-    margin-bottom: 40px;
-  }
-}
-@media (max-width: 485px) {
+
   .qualities .container .card {
     width: 100%;
+    max-width: 500px;
   }
 }
+
+/* Fade In Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /*********************************************************************************************************************/
 
 /* MENU COMPONENT STYLING */

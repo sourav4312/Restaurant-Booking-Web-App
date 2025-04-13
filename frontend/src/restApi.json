@@ -5,19 +5,19 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "We use only the freshest ingredients, sourced locally and prepared with care by our expert chefs. Every bite reflects our commitment to top-tier hygiene, rich flavors, and culinary excellence." 
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "Taste that speaks for itself! Our unique recipes are crafted to perfection, blending tradition with creativity to bring you dishes that are bursting with flavor and loved by all ages." 
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Craving good food fast? Our delivery team ensures your order arrives hot and fresh, right at your doorstep — quickly, safely, and hassle-free." 
             }
         ],
         "dishes": [
